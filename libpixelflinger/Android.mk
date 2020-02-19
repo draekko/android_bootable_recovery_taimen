@@ -34,11 +34,11 @@ PIXELFLINGER_SRC_FILES += \
 	codeflinger/load_store.cpp \
 	codeflinger/blending.cpp \
 	codeflinger/texturing.cpp \
-	fixed.cpp.arm \
-	picker.cpp.arm \
-	pixelflinger.cpp.arm \
-	trap.cpp.arm \
-	scanline.cpp.arm
+	fixed.cpp \
+	picker.cpp \
+	pixelflinger.cpp \
+	trap.cpp \
+	scanline.cpp
 else
 PIXELFLINGER_SRC_FILES_x86 := \
 	codeflinger/x86/X86Assembler.cpp \
